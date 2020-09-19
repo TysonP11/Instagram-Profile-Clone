@@ -35,6 +35,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     height: normalise(30),
     marginRight: 2 + '%',
+    shadowColor: colours['LAVENDER_LIGHT'],
+    shadowOpacity: 0.4,
+    shadowRadius: 2.5,
+    shadowOffset: {
+      // iOS only
+      width: 1.618,
+      height: 1,
+    },
+    elevation: 4,
   },
   followText: {
     fontWeight: 'bold',
@@ -51,6 +60,15 @@ const styles = StyleSheet.create({
     marginRight: 2 + '%',
     borderColor: colours['GREY_1'],
     borderWidth: 1,
+    shadowColor: colours['LAVENDER_LIGHT'],
+    shadowOpacity: 0.4,
+    shadowRadius: 2.5,
+    shadowOffset: {
+      // iOS only
+      width: 1.618,
+      height: 1,
+    },
+    elevation: 4,
   },
   msgText: {
     fontWeight: 'bold',

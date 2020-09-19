@@ -6,7 +6,7 @@ import {
   View,
   Text,
 } from 'react-native';
-import colours from '../../styles/colours';
+import colours from '../../../styles/colours';
 import { AntDesign } from '@expo/vector-icons';
 import { Octicons } from '@expo/vector-icons';
 

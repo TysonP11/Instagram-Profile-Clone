@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, FlatList } from 'react-native';
+import colours from '../../../styles/colours';
 import Post from './Post';
 
 const Feed = (props) => {
@@ -20,7 +21,11 @@ export default Feed;
 const styles = StyleSheet.create({
   feedContainer: {
     flex: 12,
-    backgroundColor: 'yellow',
+    backgroundColor: colours['OFF_WHITE'],
     alignItems: 'center',
+    //paddingHorizontal: 2 + '%',
+    paddingVertical: 2,
+    borderTopColor: colours['GREY_1'],
+    borderTopWidth: 1,
   },
 });
